@@ -85,3 +85,28 @@ a:hover{
     background-color: black;
    
 }
+.bottone{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.sfondo-grigio{
+    background-color: rgba(48,48,48,255);
+    .botton{
+        border: 1px solid blue;
+    }
+    h1{
+        color: rgba(2,130,249,255)
+    }
+   ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+   }
+}
+.series{
+    margin-top: -40px;
+    margin-left: 10px
+  }

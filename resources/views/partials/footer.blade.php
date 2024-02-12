@@ -82,7 +82,25 @@
             </div>
         </div>
     </div>
-
+    <div class="sfondo-grigio">
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-6">
+                    <button class="btn botton text-white">SIGN-UP NOW</button>
+                </div>
+                <div class="col-6">
+                    
+                    <ul class="list-unstyled "> <h1 >FOLLOW US</h1>
+                        <li><img src="footer-facebook.png" alt="sdsds"></li>
+                        <li><img src="footer-periscope.png" alt=""></li>
+                        <li><img src="footer-pinterest.png" alt=""></li>
+                        <li><img src="footer-twitter.png" alt=""></li>
+                        <li><img src="footer-youtube.png"  alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
