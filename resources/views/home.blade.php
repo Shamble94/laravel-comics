@@ -18,6 +18,8 @@
 <body>
 @include ("partials.header");
 @include("partials.jumbotron")
+
+@include("partials.footer")
 </body>
 
 </html>

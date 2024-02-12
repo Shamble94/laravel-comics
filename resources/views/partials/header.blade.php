@@ -34,7 +34,7 @@
             </div>
             <div class="col-8">
                 <div class="nav-bar">
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled ul-header">
                         <li>CHARACTERS</li>
                         <li class="active"> COMICS</li>
                         <li> MOVIES</li>

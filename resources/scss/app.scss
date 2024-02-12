@@ -9,7 +9,7 @@ main{
     text-align: end;
   
 }
-ul{
+.ul-header{
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -27,4 +27,43 @@ ul{
 .jumbo{
     background-image: url("../img/jumbotron.jpg");
     height: 400px
+}
+.img-sfondo{
+    background-image: url("../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+}
+.logo{
+    width: 550px;
+    position: absolute;
+    top:0%
+}
+.img-dc{
+    display: flex;
+    justify-content: end;
+}
+li{
+    gap: 20px
+}
+.text-grey{
+    color: grey
+}
+.sfondo-blue{
+    background-color: rgba(2,130,249,255)
+}
+.lista-sfondo-blue{
+    display: flex;
+    flex-direction: row;
+    margin: 0px ;
+    gap: 50px;
+    
+    img{
+        width: 50px
+    }
+    li{
+        display: flex;
+        align-items: center;
+    }
 }
