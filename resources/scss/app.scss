@@ -1,1 +1,30 @@
 @import '~bootstrap/scss/bootstrap';
+
+main{
+    background-color: rgba(2,130,249,255)
+}
+.bg-blue{
+    
+    color: white;
+    text-align: end;
+  
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-weight: 700;
+}
+.col-8, .col-2{
+    display: flex;
+    align-items: center;
+}
+.active{
+    color: rgba(2,130,249,255);
+    border-bottom: 3px solid rgba(2,130,249,255)
+}
+
+.jumbo{
+    background-image: url("../img/jumbotron.jpg");
+    height: 400px
+}
