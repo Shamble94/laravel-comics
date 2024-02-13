@@ -72,12 +72,12 @@
                 </div>
                 <div class="col-6">
                     
-                    <ul class="list-unstyled "> <h1 >FOLLOW US</h1>
-                        <li><img src="footer-facebook.png" alt="sdsds"></li>
-                        <li><img src="footer-periscope.png" alt=""></li>
-                        <li><img src="footer-pinterest.png" alt=""></li>
-                        <li><img src="footer-twitter.png" alt=""></li>
-                        <li><img src="footer-youtube.png"  alt=""></li>
+                    <ul class="list-unstyled d-flex-icons"> <h1 >FOLLOW US</h1>
+                        <li><img src="{{ Vite::asset("resources/img/footer-facebook.png")}}" alt=""></li>
+                        <li><img src="{{ Vite::asset("resources/img/footer-periscope.png")}}" alt=""></li>
+                        <li><img src="{{ Vite::asset("resources/img/footer-pinterest.png")}}" alt=""></li>
+                        <li><img src="{{ Vite::asset("resources/img/footer-twitter.png")}}"alt=""></li>
+                        <li><img src="{{ Vite::asset("resources/img/footer-youtube.png")}}"  alt=""></li>
                     </ul>
                 </div>
             </div>

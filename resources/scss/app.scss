@@ -107,6 +107,15 @@ a:hover{
    }
 }
 .series{
-    margin-top: -40px;
+    margin-top: -20px;
     margin-left: 10px
+  }
+  .d-flex-icons{
+    display:flex;
+    justify-content: end;
+  }
+  .fumetto{
+    display: flex;
+    text-align: center;
+    align-items: center;
   }

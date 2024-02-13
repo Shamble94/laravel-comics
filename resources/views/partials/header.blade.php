@@ -19,7 +19,7 @@
                     <ul class="list-unstyled ul-header">
                         <li>CHARACTERS</li>
                         <li class="active"><a href="{{ route("home")}}">COMICS</a>  </li>
-                        <li> <a href="{{ route("movies")}}">MOVIES</a></li>
+                        <li> MOVIES</a></li>
                         <li>TV</li>
                         <li>GAMES</li>
                         <li>COLLECTIBLES</li>

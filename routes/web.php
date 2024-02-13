@@ -19,6 +19,16 @@ Route::get('/', function () {
     dd($comics);
 })->name("home");
 
-Route::get('/movies', function () {
-    return view('movies');
-})->name("movies");
+
+Route::get('/comics_detail/{param}', function($id){
+    $comics = config("comics");
+
+    $comic = null;
+    foreach($comics as $item){
+        if($item["id"] == $id){
+            $comic = $item;
+        }
+    }
+    return view('comics_detail', compact("comic"));
+
+})->name("comics_detail");
